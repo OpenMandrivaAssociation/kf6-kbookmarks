@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Bookmarks
 %define devname %mklibname KF6Bookmarks -d
-%define git 20230622
+%define git 20230627
 
 Name: kf6-kbookmarks
 Version: 5.240.0
