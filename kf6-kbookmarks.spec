@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Bookmarks
 %define devname %mklibname KF6Bookmarks -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kbookmarks
 Version: 5.240.0
@@ -78,7 +78,6 @@ Bookmarks management library
 %files -n %{devname}
 %{_includedir}/KF6/KBookmarks
 %{_libdir}/cmake/KF6Bookmarks
-%{_qtdir}/mkspecs/modules/qt_KBookmarks.pri
 %{_qtdir}/doc/KF6Bookmarks.*
 
 %files -n %{libname}
