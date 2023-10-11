@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Bookmarks
 %define devname %mklibname KF6Bookmarks -d
-%define git 20231005
+%define git 20231011
 
 Name: kf6-kbookmarks
 Version: 5.240.0
@@ -74,11 +74,15 @@ Bookmarks management library
 
 %files -f %{name}.lang
 %{_datadir}/qlogging-categories6/kbookmarks.*
+%{_datadir}/qlogging-categories6/kbookmarkswidgets.*
 
 %files -n %{devname}
 %{_includedir}/KF6/KBookmarks
+%{_includedir}/KF6/KBookmarksWidgets
 %{_libdir}/cmake/KF6Bookmarks
 %{_qtdir}/doc/KF6Bookmarks.*
+%{_qtdir}/doc/KF6BookmarksWidgets.*
 
 %files -n %{libname}
 %{_libdir}/libKF6Bookmarks.so*
+%{_libdir}/libKF6BookmarksWidgets.so*
