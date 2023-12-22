@@ -18,6 +18,7 @@ License: CC0-1.0 LGPL-2.0+ LGPL-2.1 LGPL-3.0
 Group: System/Libraries
 BuildRequires: cmake
 BuildRequires: cmake(ECM)
+BuildRequires: gettext
 BuildRequires: python
 BuildRequires: cmake(Qt6DBusTools)
 BuildRequires: cmake(Qt6DBus)
@@ -37,8 +38,6 @@ BuildRequires: cmake(KF6Config)
 BuildRequires: cmake(KF6CoreAddons)
 BuildRequires: cmake(KF6Codecs)
 BuildRequires: cmake(KF6ConfigWidgets)
-# Avoid pulling in the KF5 version
-BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: %{libname} = %{EVRD}
 
 %description
