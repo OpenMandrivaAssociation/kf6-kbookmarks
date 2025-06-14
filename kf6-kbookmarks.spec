@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kbookmarks
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kbookmarks/-/archive/master/kbookmarks-master.tar.bz2#/kbookmarks-%{git}.tar.bz2
@@ -86,8 +86,6 @@ Bookmarks management library
 %{_includedir}/KF6/KBookmarks
 %{_includedir}/KF6/KBookmarksWidgets
 %{_libdir}/cmake/KF6Bookmarks
-%{_qtdir}/doc/KF6Bookmarks.*
-%{_qtdir}/doc/KF6BookmarksWidgets.*
 
 %files -n %{libname}
 %{_libdir}/libKF6Bookmarks.so*
