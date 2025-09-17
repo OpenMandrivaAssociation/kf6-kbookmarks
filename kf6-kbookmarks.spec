@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kbookmarks
-Version: 6.17.0
+Version: 6.18.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kbookmarks/-/archive/master/kbookmarks-master.tar.bz2#/kbookmarks-%{git}.tar.bz2
